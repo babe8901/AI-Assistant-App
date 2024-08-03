@@ -1,5 +1,4 @@
 import 'package:google_generative_ai/google_generative_ai.dart';
-import '../utils/constants.dart';
 
 class AIService {
   static Future<String> getAIResponse(ChatSession chat, String message) async {
